@@ -3,9 +3,9 @@
 To run the Llama 2 language model locally using Ollama:
 
 ### Start the Ollama container:
-bash
+```bash
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-
+```
 
 ### Pull and run the model
 
